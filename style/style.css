@@ -31,10 +31,10 @@ body::before{
     position: absolute;
     width: 600px;
     height: 600px;
-    /* background: rgb(38, 0, 255); */
-    background-image: url("../images/bg-pattern-top.svg");
-    top: -312px;
-    left: -228px;
+    /*background: rgb(38, 0, 255);
+    */background-image: url("../images/bg-pattern-top.svg");
+    top: -190px;
+    left: -90px;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -47,9 +47,9 @@ body::after{
     position: absolute;
     width: 600px;
     height: 600px;
-    /*background: red;
-    */bottom: -214px;
-    right: -113px;
+    /*background: red; */
+    bottom: -181px;
+    right: -50px;
     background-image: url("../images/bg-pattern-bottom.svg");
     border-radius:29%;
     -webkit-border-radius:29%;
@@ -60,7 +60,7 @@ body::after{
 }
 
 .container{
-    width: 50%;
+    width: 30%;
     background: white;
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -70,6 +70,7 @@ body::after{
 
     position: relative;
     z-index: 999;
+    box-shadow: 10px 10px 10px  var(--primary-Dark-grayish-blue);
 
 }
 
@@ -100,7 +101,7 @@ body::after{
     margin-bottom: 20px;
     position: absolute;
     top: 98px;
-    left: 43%;
+    left: 38%;
 }
 
 .autor img{
